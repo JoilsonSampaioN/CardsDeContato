@@ -1,0 +1,79 @@
+body{
+    margin: 40px;
+    background-color: #020238;
+}
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 30px;
+}
+#texto-principal{
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 46px;
+    margin-bottom: -50px;
+    
+}
+#lista-de-contatos{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+    width: 1200px;
+}
+.contato{
+    display: flex;
+    width: 300px;
+    list-style: none;
+    text-align: center;
+    margin: 30px;
+}
+.cartao-contato{
+    background-color: white;
+    height: 450px;
+    width: 350px;
+    border-radius: 20px;
+}
+.thumb-pic{
+    width: 350px;
+    border-radius: 20px 20px 0 0;
+}
+.profile-pic{
+    border-radius: 50%;
+    margin-top: -70px;
+    border-radius: 50%;
+}
+.informacoes{
+    margin-top: 20px;
+}
+.nome{
+    margin-bottom: 20px;
+    color: cadetblue;
+    opacity: .5;
+}
+.email{
+    font-size: 20px;
+}
+.icons{
+    background-color: #d1d1d1;
+    height: 90px;
+    margin-top: 20px;
+    border-radius: 0 0 20px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.icons a{
+    margin: 50px;
+}
+.icons img{
+    width: 20px;
+}
